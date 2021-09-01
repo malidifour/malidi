@@ -5,6 +5,11 @@
 		h1{color: maroon;
 			font-family: comic sans MS;
 			text-align: center;}
+		h2{
+			color: navy;
+			font-family: comic sans Ms;
+			text-align: center;
+		}	
 		p{color: green;
 			border: 2px solid tomato;
 			padding:30px ;
@@ -16,5 +21,38 @@
 			border-radius: 5px;
 			border: 1px solid powderblue;
 
+		}
+		ul{
+			text-align: center;
+		}
+		/*unvisited link*/
+		a:link{
+			color: maroon;
+		}
+		/*visited link*/
+		a:visited{
+			color: green;
+		}
+		/*mouse over the link*/
+		a:hover{
+			color: blue;
+		}
+		/*active link*/
+		a:active{
+			color: yellowgreen;
+		}
+
+		table, th, td {
+			border: 2px solid yellowgreen;
+			border-collapse: collapse;
+			border-radius: 10px;
+			width: 100%;
+		}
+		th, td{
+			background-color: lightgray;
+			padding-top: 10px;
+			padding-right: 20px;
+			padding-bottom: 30px;
+			padding-left: 40px;
 		}
 	
